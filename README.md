@@ -1,4 +1,4 @@
-![Polis Logo](/assets/logopolis.png)
+![Polis Logo](/assets/logopolis.jpg)
 
 # Data Science Project
 
