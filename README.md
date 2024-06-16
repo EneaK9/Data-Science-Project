@@ -17,24 +17,24 @@ This project is centered around developing a robust image classification system 
 2.	**Model Evaluation**: 
     - **Evaluate and compare the performance of three distinct classifiers**:
     - **Baseline Model (Dense Layers Only)**: 
-        A straightforward architecture using densely connected layers for classification.
+      - A straightforward architecture using densely connected layers for classification.
     - **Convolutional Model**: 
-        Incorporating convolutional layers to extract spatial features from images, which is effective for capturing patterns and structures in visual data.
+      - Incorporating convolutional layers to extract spatial features from images, which is effective for capturing patterns and structures in visual data.
     - **Pre-trained Model (MobileNetV2)**: 
-        Utilizing a pre-trained MobileNetV2 model, leveraging transfer learning to capitalize on patterns learned from a large-scale dataset (ImageNet) and fine-tuning it for the specific task of water bottle classification.
+      - Utilizing a pre-trained MobileNetV2 model, leveraging transfer learning to capitalize on patterns learned from a large-scale dataset (ImageNet) and fine-tuning it for the specific task of water bottle classification.
 
 3.	**Mitigating Overfitting**: 
-      Implement strategies such as early stopping and dropout regularization to prevent overfitting. Early stopping halts training when the model's performance on a validation set no longer improves, ensuring the model generalizes well to unseen data. Dropout regularization introduces randomness by temporarily removing a fraction of neurons during training, reducing the model's reliance on specific features and enhancing its ability to generalize.
+    - Implement strategies such as early stopping and dropout regularization to prevent overfitting. Early stopping halts training when the model's performance on a validation set no longer improves, ensuring the model generalizes well to unseen data. Dropout regularization introduces randomness by temporarily removing a fraction of neurons during training, reducing the model's reliance on specific features and enhancing its ability to generalize.
 
 4.	**Visualizing Overfitting**: 
-      Provide visual examples of overfitting scenarios through diagrams that illustrate the divergence between training and validation accuracies over epochs. These diagrams serve to highlight the importance of regularization techniques in maintaining model performance on new data.
+    - Provide visual examples of overfitting scenarios through diagrams that illustrate the divergence between training and validation accuracies over epochs. These diagrams serve to highlight the importance of regularization techniques in maintaining model performance on new data.
 
 
 ### Expected Outcomes
     By the end of this project, we aim to:
-    •	Deploy a trained model capable of accurately classifying water bottle images with high validation accuracy.
-    •	Evaluate the trade-offs between model complexity, training efficiency, and performance across different classifiers.
-    •	Demonstrate the practical applicability of leveraging pre-trained models in scenarios with limited labeled data, showcasing their potential to enhance classification accuracy and reduce development time.
+    • Deploy a trained model capable of accurately classifying water bottle images with high validation accuracy.
+    • Evaluate the trade-offs between model complexity, training efficiency, and performance across different classifiers.
+    • Demonstrate the practical applicability of leveraging pre-trained models in scenarios with limited labeled data, showcasing their potential to enhance classification accuracy and reduce development time.
     
     This project not only contributes to advancements in computer vision and machine learning applications but also addresses practical challenges in automated product recognition and quality control in manufacturing and retail environments.
 
@@ -61,9 +61,9 @@ This project is centered around developing a robust image classification system 
     - This demonstrates the effectiveness of transfer learning in adapting pre-existing knowledge to solve a new classification task efficiently.
 
 ### Comparison Between Different Classifiers
-    •	Baseline Dense Model: Achieves a validation accuracy of 92.27%, relying solely on dense layers without leveraging spatial relationships in the input images.
-    •	Convolutional Model: Achieves a validation accuracy of 99.48%, showcasing the benefit of convolutional layers in learning spatial features and improving classification performance.
-    •	Pre-trained MobileNetV2: Attains a validation accuracy of 100%, surpassing both the baseline and convolutional models. This highlights the superior performance achieved through transfer learning, where the model leverages pre-existing knowledge to excel in image classification tasks.
+    • Baseline Dense Model: Achieves a validation accuracy of 92.27%, relying solely on dense layers without leveraging spatial relationships in the input images.
+    • Convolutional Model: Achieves a validation accuracy of 99.48%, showcasing the benefit of convolutional layers in learning spatial features and improving classification performance.
+    • Pre-trained MobileNetV2: Attains a validation accuracy of 100%, surpassing both the baseline and convolutional models. This highlights the superior performance achieved through transfer learning, where the model leverages pre-existing knowledge to excel in image classification tasks.
 
 
 ## Handling Overfitting and Underfitting
