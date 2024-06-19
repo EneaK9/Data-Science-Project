@@ -1,8 +1,5 @@
-![Polis Logo](/assets/logopolis.jpg)
 
-# Data Science Project
-
-## Water Bottle Image Classification Project
+# Water Bottle Image Classification Project - Data Science Project
 
 # Description
 
